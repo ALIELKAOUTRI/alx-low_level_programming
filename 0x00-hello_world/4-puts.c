@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #include <studio.h>
 
 int main(void)
