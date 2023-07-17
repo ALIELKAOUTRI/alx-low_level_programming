@@ -9,9 +9,11 @@
  */
 int main(void)
 {
-    srand(time(NULL));  // Initialize the random number generator
+    int n;
 
-    int n = rand();
+    srand(time(NULL));  /* Initialize the random number generator */
+
+    n = rand();
 
     if (n > 0) {
         printf("%d\n is positive\n", n);
@@ -23,3 +25,4 @@ int main(void)
 
     return 0;
 }
+
