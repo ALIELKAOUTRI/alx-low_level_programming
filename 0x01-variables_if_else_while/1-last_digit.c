@@ -8,12 +8,12 @@
  * Description: print the last digit number
  *
  * Return: Always 0 (success)
-*/
+ */
 
 int main(void)
 {
 	int n, digits;
-		srand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	digits = n % 10;
 
