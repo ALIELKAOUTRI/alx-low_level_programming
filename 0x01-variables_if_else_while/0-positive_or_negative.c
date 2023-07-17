@@ -16,11 +16,11 @@ int main(void)
     n = rand();
 
     if (n > 0) {
-        printf("%d\n is positive\n", n);
+        printf("%d\n is positive", n);
     } else if (n == 0) {
-        printf("%d\n is zero\n", n);
+        printf("%d\n is zero", n);
     } else if (n < 0) {
-        printf("%d\n is negative\n", n);
+        printf("%d\n is negative", n);
     }
 
     return 0;
