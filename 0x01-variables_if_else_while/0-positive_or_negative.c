@@ -13,7 +13,7 @@ int n;
 
 srand(time(NULL)); /* Initialize the random number generator */
 
-n = rand();
+n = rand() % 200 - 100;
 
 if (n > 0)
 {
