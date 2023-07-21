@@ -11,9 +11,10 @@
 int main(void)
 {
     char text[] = "_putchar";
+    int i;
 
     /* Print each character of the "_putchar" message */
-    for (int i = 0; text[i] != '\0'; i++)
+    for (i = 0; text[i] != '\0'; i++)
     {
         _putchar(text[i]);
     }
@@ -23,3 +24,4 @@ int main(void)
 
     return (0);
 }
+
